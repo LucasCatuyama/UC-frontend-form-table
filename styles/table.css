@@ -1,0 +1,43 @@
+.table {
+    text-align: left;
+    font-size: 14px;
+}
+
+.table  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+table {
+    width: 800px;
+}
+
+table th, td{
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+table th {
+    background-color: var(--bt-blue);
+    color: var(--card-white);
+    font-weight: 500;
+}
+
+.table__firstRow {
+    background-color: var(--card-white);
+}
+
+.table__secondRow {
+    background-color: var(--tb-gray);
+}
+
+.maisInformacao {
+    background-color: var(--bt-green);
+    border-style: none;
+    color: var(--card-white);
+    padding: 3px 8px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;
+}

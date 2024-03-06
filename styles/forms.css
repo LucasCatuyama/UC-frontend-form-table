@@ -1,10 +1,11 @@
 :root {
     --bg-main: #F4F4F4;
     --card-white: #ffffff;
+    --tb-gray: #F2F2F2;
     --bt-blue: #027BFF;
     --hover-blue: #54A3FF;
     --bt-green: #4CAF50;
-    --font-black: #33333;
+    --font-black: #333333;
     --main-font: "Roboto", sans-serif; 
 }
 
@@ -26,7 +27,7 @@ main {
 }
 
 .formulario {
-    width: 50%;
+    width: 500px;
     height: auto;
     margin: 50px 0;
     background-color: var(--card-white);
