@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário e tabela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
-      href="./reset.css
-    "
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/forms.css" />
   </head>
   <body>
     <main>
       <section class="formulario">
-        <form action="_blank" method="post">
+        <form action="_blank" method="post" id="inscricao">
           <h1>Formulário de Inscrição</h1>
           <div class="formulario__lacuna">
             <label for="name">Nome completo:</label>
@@ -26,7 +28,7 @@
           </div>
           <div class="formulario__lacuna">
             <label for="type">Tipo de inscrição</label>
-            <select name="" id="">
+            <select name="" id="" form="#inscricao">
               <optgroup>
                 <option value="" disabled selected>Selecione uma opção</option>
                 <option value="">Participante</option>
@@ -35,11 +37,11 @@
               </optgroup>
             </select>
           </div>
-          <div class="formulario__lacuna">
+          <div>
             <input type="checkbox" />
             <p>Aceito os termos e condições</p>
           </div>
-          <input type="submit" value="Inscrever-se" required/>
+          <input class="inscrever" type="submit" value="Inscrever-se" required />
         </form>
       </section>
 

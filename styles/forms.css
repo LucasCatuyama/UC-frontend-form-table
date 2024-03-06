@@ -4,7 +4,8 @@
     --bt-blue: #027BFF;
     --hover-blue: #54A3FF;
     --bt-green: #4CAF50;
-    --font-black: #000000;
+    --font-black: #33333;
+    --main-font: "Roboto", sans-serif; 
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     height: auto;
     background-color: var(--bg-main);
     color: var(--font-black);
+    font-family: var(--main-font);
     font-size: 16px;
     font-weight: 400;
 }
@@ -26,6 +28,7 @@ main {
 .formulario {
     width: 50%;
     height: auto;
+    margin: 50px 0;
     background-color: var(--card-white);
     border-radius: 20px;
 }
@@ -33,17 +36,48 @@ main {
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+    gap: 20px;
+    padding: 40px 25px 25px 25px;
+    font-weight: 500;
 }
 
 .formulario h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     text-align: center;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+}
+
+.formulario__lacuna {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__lacuna input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px gray;  
 }
 
 .option:hover {
     background-color: var(--hover-blue);
 }
+
+.inscrever {
+    background-color: var(--bt-blue);
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    color: var(--card-white);
+    font-size: 18px;
+}
+
+.inscrever:hover {
+    cursor: pointer;
+}
+
+
 
