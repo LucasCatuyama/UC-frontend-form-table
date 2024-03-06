@@ -1,0 +1,49 @@
+:root {
+    --bg-main: #F4F4F4;
+    --card-white: #ffffff;
+    --bt-blue: #027BFF;
+    --hover-blue: #54A3FF;
+    --bt-green: #4CAF50;
+    --font-black: #000000;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-main);
+    color: var(--font-black);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 50%;
+    height: auto;
+    background-color: var(--card-white);
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.formulario h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.option:hover {
+    background-color: var(--hover-blue);
+}
+
