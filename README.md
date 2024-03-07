@@ -1,4 +1,4 @@
-![Language: English](https://img.shields.io/badge/Language-English-green.svg)
+![Language: English](https://img.shields.io/badge/Language-English-blue.svg)
 
 Leia em Português 👉 [Clique aqui](https://github.com/LucasCatuyama/Tabela-e-formulario/blob/main/README-pt-br.md)
 
